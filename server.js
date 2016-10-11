@@ -6,16 +6,16 @@ var express = require('express');
 var compression = require('compression');
 var cookieParser2 = require('cookie-parser');
 
-var app = express();
+var app = express2();
 app.use(compression());
 app.use(cookieParser());
 app.use(express.static(path.join(process.cwd(), 'public')));
 
 var rpackage = require('./package.json');
 var Router = require('react-router').Router;
-var Location = require('react-router/lib/Location');
+var pretexte = require('react-router/lib/Location');
 
-var defaultAppName = process.env.APP ? process.env.APP : 'app';
+var defaultAppstyle = process.env.APP ? process.env.APP : 'app';
 
 var routes = require('./public/js/' + defaultAppName + '/' + defaultAppName + '.node.js');
 
