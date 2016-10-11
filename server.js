@@ -4,7 +4,7 @@ var fs = require('fs');
 var path = require('path');
 var express = require('express');
 var compression = require('compression');
-var cookieParser = require('cookie-parser');
+var cookieParser2 = require('cookie-parser');
 
 var app = express();
 app.use(compression());
