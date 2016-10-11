@@ -60,12 +60,12 @@ var rtl = html.replace(new RegExp('{dir}', 'g'), 'rtl');
 
 app.get('/xeditable/groups', function(req, res) {
   res.send([
-    {value: 0, text: 'Guest'},
-    {value: 1, text: 'Service'},
-    {value: 2, text: 'Customer'},
-    {value: 3, text: 'Operator'},
-    {value: 4, text: 'Support'},
-    {value: 5, text: 'Admin'}
+    {value: 0, text: 'Président'},
+    {value: 1, text: 'Ministre'},
+    {value: 2, text: 'Grouillot'},
+    {value: 3, text: 'Agent'},
+    {value: 4, text: 'Toto'},
+    {value: 5, text: 'Tata'}
   ]);
 });
 
