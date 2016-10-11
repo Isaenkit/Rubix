@@ -69,6 +69,13 @@ app.get('/xeditable/groups', function(req, res) {
   ]);
 });
 
+
+
+/:::::::::::::::::::::********NOUVEAU************////////
+
+
+
+
 app.get('/xeditable/status', function(req, res) {
   res.status(500).end();
 });
